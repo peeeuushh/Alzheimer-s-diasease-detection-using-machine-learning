@@ -24,4 +24,24 @@ The application can classify an uploaded MRI image into one of the following cat
 
 This helps doctors make informed decisions and start appropriate treatment as early as possible.
 
-## 
+## Features
+- Upload MRI brain images for analysis.
+- Predict the presence and stage of Alzheimer’s disease (if any).
+- Early detection for better management and treatment.
+
+## How It Works
+1. **Upload MRI Image**: The user uploads an MRI image of the brain.
+2. **Prediction**: The image is processed using a Convolutional Neural Network (CNN) model that has been trained to detect different stages of Alzheimer’s disease.
+3. **Result**: The application predicts whether the patient has Alzheimer's and, if so, at what stage (No Alzheimer, Very Mild, Mild, or Severe).
+4. **Output**: The stage of Alzheimer’s is displayed as a result.
+
+## Technologies Used
+- **Programming Language**: Python
+- **Machine Learning**: Convolutional Neural Networks (CNN)
+- **Frameworks**: Flask/Django (optional, depending on what you've used)
+- **Frontend**: HTML, CSS, JavaScript
+- **Data Processing**: OpenCV, NumPy, Pandas
+- **Model Training**: TensorFlow, Keras
+
+## Dataset
+The model is trained using a dataset of MRI brain images from patients at various stages of Alzheimer's disease. The dataset contains images classified into four categories based on the severity of the disease.
